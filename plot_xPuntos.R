@@ -1,7 +1,4 @@
-setwd("C:/Users/Francisco/OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey/Doctorado - COLSON/Semestre 2/EACS/Prácticas R")
-getwd()
-
-ligamx<-read.csv("C:/Users/Francisco/OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey/Doctorado - COLSON/Semestre 2/EACS/Prácticas R/3ra.csv")
+ligamx<-read.csv("data/xTable_262_2021.csv")
 
 plot(ligamx$xPuntos,ligamx$puntos)
 plot(ligamx$xPuntos,ligamx$puntos,type="l")
